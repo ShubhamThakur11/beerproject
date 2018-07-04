@@ -34,7 +34,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
         private RecyclerView recyclerView;
         public RecyclerView.Adapter adapter;
-
+        Textview tv;
         private List<ListItem> listItems;
         private RequestQueue mqueue;
     @Override

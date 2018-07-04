@@ -1,6 +1,7 @@
 package pref.com.beerproject;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -31,10 +32,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
+
+
+
+
         private RecyclerView recyclerView;
-        public RecyclerView.Adapter adapter;
-        
+        private MyAdapter adapter;
         private List<ListItem> listItems;
         private RequestQueue mqueue;
     @Override
@@ -100,6 +104,8 @@ public class MainActivity extends AppCompatActivity {
         mqueue.add(req);
        
     }
-    
+
+
+
 
 }

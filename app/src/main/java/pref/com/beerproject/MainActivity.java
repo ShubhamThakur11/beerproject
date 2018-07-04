@@ -34,7 +34,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
         private RecyclerView recyclerView;
         public RecyclerView.Adapter adapter;
-        Button b,b1;
+        Button b,b1,b3;
         TextView tv;
         EditText et;
         private List<ListItem> listItems;

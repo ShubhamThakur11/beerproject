@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         private RecyclerView recyclerView;
         public RecyclerView.Adapter adapter;
         TextView tv;
+        EditText et;
         private List<ListItem> listItems;
         private RequestQueue mqueue;
     @Override

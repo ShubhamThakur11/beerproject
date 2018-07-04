@@ -34,9 +34,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
         private RecyclerView recyclerView;
         public RecyclerView.Adapter adapter;
-        Button b,b1,b3;
-        TextView tv,tv1,tv2;
-        EditText et;
+        
         private List<ListItem> listItems;
         private RequestQueue mqueue;
     @Override
@@ -100,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         mqueue.add(req);
-        Toast.makeText(this, "hii", Toast.LENGTH_SHORT).show();
+       
     }
     
 

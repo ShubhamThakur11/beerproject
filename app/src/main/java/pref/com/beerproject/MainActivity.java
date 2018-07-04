@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                         } catch (JSONException e) {
                             e.printStackTrace();
                             Toast.makeText(getApplicationContext(),
-                                    "Error: " + e.getMessage(),
+                                    "New Error: " + e.getMessage(),
                                     Toast.LENGTH_LONG).show();
                         }
 
